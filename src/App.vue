@@ -298,10 +298,6 @@ export default {
                                         </svg>
                                     </button>
                                     <select v-model="product[i]" class="input">
-                                        <!-- <option
-                                            v-if="product[i]"
-                                            value=""
-                                        ></option> -->
                                         <option
                                             v-for="product in productsList"
                                             :key="product.id"
